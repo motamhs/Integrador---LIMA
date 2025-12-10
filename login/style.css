@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #F7FFF7;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+#icone-pesquisa {
+    width: 32px;
+    margin-right: 19px;
+    cursor: pointer;
+    filter: brightness(0) saturate(0%);
+    transition: 0.2s;
+}
+
+#icone-pesquisa:hover {
+    filter: brightness(0) saturate(100%) invert(44%) sepia(98%) 
+            saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
+}
+
+.icone {
+    width: 35px;
+    margin-right: 19px;
+    cursor: pointer;
+    filter: brightness(0) saturate(0%);
+    transition: 0.2s;
+}
+
+.icone:hover {
+    filter: brightness(0) saturate(100%) invert(44%) sepia(98%) 
+            saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
+}
+
+.cabecalho {
+    background: white;
+    box-shadow: 0 2px 6px #ddd;
+}
+
+.caixa-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-marca {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navegacao a {
+    margin-left: 20px;
+    color: #333;
+}
+
+.secao-login {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.caixa-login {
+    background: white;
+    padding: 40px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #ccc;
+    text-align: center;
+}
+
+.titulo-login {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.sub-login {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.link {
+    color: #FF6B6B;
+    font-weight: bold;
+}
+
+.formulario {
+    text-align: left;
+}
+
+.rotulo-campo {
+    font-size: 14px;
+    color: #333;
+}
+
+.campo {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.linha-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lembrar {
+    font-size: 14px;
+    color: #333;
+}
+
+.botao {
+    width: 100%;
+    padding: 12px;
+    background: #FF6B6B;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.separador {
+    margin: 25px 0;
+    position: relative;
+    text-align: center;
+}
+
+.separador span {
+    background: white;
+    padding: 0 10px;
+    color: #777;
+}
+
+.separador::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+.caixa-social {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.botao-social {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.facebook {
+    color: #1877F2;
+}
+
+.google {
+    color: #DB4437;
+}
+
+.rodape {
+    background: #292F36;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+}

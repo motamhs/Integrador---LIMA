@@ -1,0 +1,149 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.fundo-pagina { 
+    background: #F7FFF7; 
+}
+
+.fundo-claro {
+    background: #f3f3f3;
+    padding: 40px 30px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+#icone-pesquisa {
+    width: 32px;
+    margin-right: 19px;
+    cursor: pointer;
+    filter: brightness(0) saturate(0%);
+    transition: 0.2s;
+}
+
+#icone-pesquisa:hover {
+    filter: brightness(0) saturate(100%) invert(44%) sepia(98%) saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
+}
+
+.icone {
+    width: 35px;
+    margin-right: 19px;
+    cursor: pointer;
+    filter: brightness(0) saturate(0%);
+    transition: 0.2s;
+}
+
+.icone:hover {
+    filter: brightness(0) saturate(100%) invert(44%) sepia(98%) saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
+}
+
+.barra-nav { 
+    background: #fff; 
+    box-shadow: 0 2px 6px #ddd; 
+}
+
+.barra-nav-container { 
+    max-width: 1100px; 
+    margin: auto; 
+    padding: 20px 16px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo-marca { 
+    font-size: 28px; 
+    font-weight: bold; 
+}
+
+.menu-principal a { 
+    margin-left: 25px; 
+    text-decoration: none; 
+    color: #333; 
+}
+
+.secao {
+    padding: 60px 16px;
+    max-width: 1100px;
+    margin: 20px auto 0 auto;
+}
+
+.grade {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    justify-items: center;
+}
+
+.botao {
+    width: 100%;
+    padding: 12px;
+    background: #FF6B6B;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    
+}
+
+.botoes-centro {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+.cartao-produto {
+    width: 220px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px #ccc;
+    padding: 15px;
+    text-align: center;
+    transition: .2s;
+}
+
+.cartao-produto:hover {
+    transform: scale(1.08);
+}
+
+.img-produto {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.titulo-produto {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.preco {
+    color: #000000;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.rodape {
+    text-align: center;
+    background: #292F36;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}

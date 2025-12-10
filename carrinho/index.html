@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho - Luiza Vitton</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../z_imagens/favicon.ico">
+</head>
+
+<body class="fundo-pagina">
+
+<header class="barra-nav">
+    <div class="barra-nav-container">
+
+            <h1 class="logo-marca">
+                <a href="../principal_certo/index.html">Luiza Vitton</a>
+            </h1>
+
+        <nav class="menu-principal">
+            <a href="../principal_certo/index.html">Início</a>
+            <a href="../produtos/index.html">Produtos</a>
+            <a href="../Sobre/index.html">Sobre</a>
+            <a href="../contato/index.html">Contato</a>
+        </nav>
+
+        <div class="icones-topo">
+            <img src="../z_imagens/icon pesquisa.png" id="icone-pesquisa">
+            <a href="../carrinho/index.html"><img src="../z_imagens/carrinho.png" class="icone"></a>
+            <a href="../login/index.html"><img src="../z_imagens/icon login.png" class="icone"></a>
+        </div>
+
+    </div>
+</header>
+
+<main class="carrinho-fundo">
+
+    <h2 class="titulo-secao">Seu Carrinho</h2>
+
+    <div class="carrinho-grid">
+
+        <div class="lista-produtos">
+
+            <div class="item-carrinho">
+                <img src="../z_imagens/vestido_floral.jpg" class="imagem-item">
+
+                <div class="info-item">
+                    <h3 class="nome-item">Vestido Floral</h3>
+                    <p class="preco-item">R$ 129,90</p>
+
+                    <label>Quantidade:</label>
+                    <input type="number" min="1" value="1" class="quantidade-item">
+                </div>
+
+                <p class="subtotal-item">Subtotal: R$ 129,90</p>
+            </div>
+
+            <div class="item-carrinho">
+                <img src="../z_imagens/camisasimples.jpg" class="imagem-item">
+
+                <div class="info-item">
+                    <h3 class="nome-item">Camiseta Básica</h3>
+                    <p class="preco-item">R$ 59,90</p>
+
+                    <label>Quantidade:</label>
+                    <input type="number" min="1" value="2" class="quantidade-item">
+                </div>
+
+                <p class="subtotal-item">Subtotal: R$ 119,80</p>
+            </div>
+
+        </div>
+
+        <div class="resumo">
+            <h3>Resumo do Pedido</h3>
+
+            <p class="linha-resumo">
+                <span>Produtos:</span>
+                <span>R$ 249,70</span>
+            </p>
+
+            <p class="linha-resumo">
+                <span>Frete:</span>
+                <span>R$ 20,00</span>
+            </p>
+
+            <hr>
+
+            <p class="total">
+                <span>Total:</span>
+                <span>R$ 269,70</span>
+            </p>
+
+            <button class="botao-finalizar">Finalizar Compra</button>
+        </div>
+
+    </div>
+
+</main>
+
+<footer class="rodape">
+    © 2026 Luiza Vitton - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
