@@ -149,7 +149,7 @@ a {
 }
 
 .botao-enviar {
-    background: linear-gradient(to right, #FF6B6B, #FFE66D);
+    background-color: #FF6B6B;
     color: rgb(0, 0, 0);
     font-size: 18px;
     padding: 12px;
