@@ -75,7 +75,7 @@ O foco do projeto é apenas **estruturas clara de HTML e CSS**.
 │
 ├── z-Produtos/
 │   ├── (cada produto possui sua própria página HTML)
-│   └── (e seu próprio CSS correspondente)
+│   └── style.css (css geral de todos os produtos)
 │
 ├── .gitattributes
 └── README.md
