@@ -165,10 +165,10 @@ a {
 }
 
 .rodape {
-    text-align: center;
     background: #292F36;
     color: white;
     padding: 20px;
+    text-align: center;
     margin-top: 40px;
 }
 
