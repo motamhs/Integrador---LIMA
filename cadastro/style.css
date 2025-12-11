@@ -24,8 +24,7 @@ a {
 }
 
 #iconePesquisa:hover {
-    filter: brightness(0) saturate(100%) invert(44%) sepia(98%)
-            saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(44%) sepia(98%) saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
 }
 
 .icone {
@@ -37,29 +36,33 @@ a {
 }
 
 .icone:hover {
-    filter: brightness(0) saturate(100%) invert(44%) sepia(98%)
-            saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(44%) sepia(98%) saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
 }
 
-.cabecalho {
-    background: white;
-    box-shadow: 0 2px 6px #ddd;
+
+.barraNav { 
+    background: #fff; 
+    box-shadow: 0 2px 6px #ddd; 
 }
 
-.caixaCabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.conteudoNav { 
+    max-width: 1100px; 
+    margin: auto; 
+    padding: 20px 16px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
-.logoMarca {
-    font-size: 28px;
-    font-weight: bold;
+.logoMarca { 
+    font-size: 28px; 
+    font-weight: bold; 
 }
 
-.navegacao a {
-    margin-left: 20px;
-    color: #333;
+.menuPrincipal a { 
+    margin-left: 25px; 
+    text-decoration: none; 
+    color: #333; 
 }
 
 .secaoLogin {

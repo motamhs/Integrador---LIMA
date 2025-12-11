@@ -9,7 +9,9 @@ a {
     color: black;
 }
 
-.fundoPagina { background: #F7FFF7; }
+.fundoPagina {
+     background: #F7FFF7;
+}
 
 .barraNav { 
     background: #fff; 
