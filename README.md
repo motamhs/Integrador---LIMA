@@ -9,7 +9,7 @@ O foco do projeto é apenas **estruturas clara de HTML e CSS**.
 
 - Página inicial com destaque para promoções e categorias
 - Lista completa de produtos em grade responsiva
-- Página individual para cada produto, com:
+- Página individual para cada produto com:
   - Nome
   - Imagem
   - Descrição
@@ -19,9 +19,9 @@ O foco do projeto é apenas **estruturas clara de HTML e CSS**.
   - Produtos pré-carregados
   - Subtotais
   - Resumo do pedido
-- Página de contato/atendimento com formulário funcional (HTML)
-- Navbar fixa e padronizada em todas as páginas
-- Paleta de cores suave e moderna
+- Página de contato/atendimento
+- Navbar fixa e padronizada
+- Paleta de cores suave
 - Organização modular dos arquivos
 
 ---
