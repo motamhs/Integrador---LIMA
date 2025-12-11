@@ -17,7 +17,7 @@ a {
     padding: 20px;
 }
 
-.titulo-secao { 
+.tituloSecao { 
     text-align: center; 
     font-size: 32px; 
     margin-bottom: 30px; 
@@ -28,7 +28,7 @@ a {
     margin-bottom: 10px; 
 }
 
-#icone-pesquisa {
+#iconePesquisa {
     width: 32px;
     margin-right: 19px;
     cursor: pointer;
@@ -36,7 +36,7 @@ a {
     transition: 0.2s;
 }
 
-#icone-pesquisa:hover {
+#iconePesquisa:hover {
     filter: brightness(0) saturate(100%) invert(44%) sepia(98%)
             saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
 }
@@ -59,13 +59,13 @@ a {
     box-shadow: 0 2px 6px #ddd;
 }
 
-.caixa-cabecalho {
+.caixaCabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo-marca {
+.logoMarca {
     font-size: 28px;
     font-weight: bold;
 }
@@ -75,15 +75,12 @@ a {
     color: #333; 
 }
 
-.menu-principal a { 
+.menuPrincipal a { 
     margin-left: 25px; 
-    text-decoration: none; 
     color: #333; 
 }
 
-
-
-.fundo-claro {
+.fundoClaro {
     background: #f3f3f3;
     padding: 50px 30px;
     border-radius: 20px;
@@ -108,13 +105,13 @@ a {
     color: #444;
 }
 
-.container-contato {
+.containerContato {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
 }
 
-.info-box {
+.infoBox {
     flex: 1;
     background: white;
     padding: 25px;
@@ -123,12 +120,12 @@ a {
     min-width: 280px;
 }
 
-.info-box h3 {
+.infoBox h3 {
     font-size: 22px;
     margin-bottom: 15px;
 }
 
-.form-contato {
+.formContato {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -136,21 +133,21 @@ a {
     min-width: 280px;
 }
 
-.form-contato input,
-.form-contato textarea {
+.formContato input,
+.formContato textarea {
     padding: 12px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 8px;
 }
 
-.form-contato textarea {
+.formContato textarea {
     height: 140px;
 }
 
-.botao-enviar {
+.botaoEnviar {
     background-color: #FF6B6B;
-    color: rgb(0, 0, 0);
+    color: black;
     font-size: 18px;
     padding: 12px;
     border: none;
@@ -160,18 +157,17 @@ a {
     margin-top: 10px;
 }
 
-.botao-enviar:hover {
+.botaoEnviar:hover {
     opacity: 0.85;
 }
 
 .rodape {
-    text-align: center;
     background: #292F36;
     color: white;
     padding: 20px;
+    text-align: center;
     margin-top: 40px;
 }
-
 
 body {
     display: flex;

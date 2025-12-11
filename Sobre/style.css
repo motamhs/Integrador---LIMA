@@ -16,7 +16,7 @@ a {
     padding: 20px;
 }
 
-#icone-pesquisa {
+#iconePesquisa {
     width: 32px;
     margin-right: 19px;
     cursor: pointer;
@@ -24,7 +24,7 @@ a {
     transition: 0.2s;
 }
 
-#icone-pesquisa:hover {
+#iconePesquisa:hover {
     filter: brightness(0) saturate(100%) invert(44%) sepia(98%) saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
 }
 
@@ -40,12 +40,12 @@ a {
     filter: brightness(0) saturate(100%) invert(44%) sepia(98%) saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
 }
 
-.barra-nav { 
+.barraNav { 
     background: #fff; 
     box-shadow: 0 2px 6px #ddd; 
 }
 
-.barra-nav-container { 
+.conteudoNav { 
     max-width: 1100px; 
     margin: auto; 
     padding: 20px 16px; 
@@ -54,63 +54,54 @@ a {
     align-items: center; 
 }
 
-.logo-marca { 
+.logoMarca { 
     font-size: 28px; 
     font-weight: bold; 
 }
 
-.menu-principal a { 
+.menuPrincipal a { 
     margin-left: 25px; 
     text-decoration: none; 
     color: #333; 
 }
 
-.menu-principal a { 
-    margin-left: 25px; 
-    text-decoration: none; 
-    color: #333; 
-}
-
-.secao-sobre {
+.secaoSobre {
     padding: 60px 20px;
 }
 
-.sobre-box {
+.sobreBox {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     align-items: center;
 }
 
-.sobre-texto {
+.sobreTexto {
     flex: 1;
 }
 
-.sobre-imagem-caixa {
+.sobreImagem {
     flex: 1;
     display: flex;
     justify-content: center;
-}
-
-.sobre-imagem {
     width: 100%;
     max-width: 420px;
     border-radius: 12px;
     box-shadow: 0 4px 12px #ccc;
 }
 
-.valores-box {
+.valoresBox {
     margin-top: 60px;
     margin-bottom: 60px;
 }
 
-.grade-valores {
+.gradeValores {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-.valor-item {
+.valorItem {
     background: white;
     padding: 25px;
     border-radius: 12px;
@@ -118,7 +109,7 @@ a {
     text-align: center;
 }
 
-.valor-titulo {
+.valorTitulo {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -127,7 +118,7 @@ a {
 .rodape {
     background: #292F36;
     color: white;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     margin-top: 40px;
 }

@@ -15,7 +15,7 @@ a {
     padding: 20px;
 }
 
-#icone-pesquisa {
+#iconePesquisa {
     width: 32px;
     margin-right: 19px;
     cursor: pointer;
@@ -23,7 +23,7 @@ a {
     transition: 0.2s;
 }
 
-#icone-pesquisa:hover {
+#iconePesquisa:hover {
     filter: brightness(0) saturate(100%) invert(44%) sepia(98%)
             saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
 }
@@ -46,13 +46,13 @@ a {
     box-shadow: 0 2px 6px #ddd;
 }
 
-.caixa-cabecalho {
+.caixaCabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo-marca {
+.logoMarca {
     font-size: 28px;
     font-weight: bold;
 }
@@ -62,7 +62,7 @@ a {
     color: #333;
 }
 
-.secao-login {
+.secaoLogin {
     min-height: 80vh;
     display: flex;
     justify-content: center;
@@ -70,7 +70,7 @@ a {
     padding: 40px 20px;
 }
 
-.caixa-login {
+.caixaLogin {
     background: white;
     padding: 40px;
     width: 100%;
@@ -80,12 +80,12 @@ a {
     text-align: center;
 }
 
-.titulo-login {
+.tituloLogin {
     font-size: 30px;
     margin-bottom: 5px;
 }
 
-.sub-login {
+.subLogin {
     color: #666;
     margin-bottom: 25px;
 }
@@ -94,11 +94,12 @@ a {
     color: #ce1913;
     font-weight: bold;
 }
+
 .formulario {
     text-align: left;
 }
 
-.rotulo-campo {
+.rotuloCampo {
     font-size: 14px;
     color: #333;
 }
@@ -112,7 +113,7 @@ a {
     margin-bottom: 20px;
 }
 
-.linha-form {
+.linhaForm {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -134,6 +135,7 @@ a {
     cursor: pointer;
     margin-top: 15px;
 }
+
 .separador {
     margin: 25px 0;
     position: relative;
@@ -157,13 +159,13 @@ a {
     z-index: -1;
 }
 
-.caixa-social {
+.caixaSocial {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
 
-.botao-social {
+.botaoSocial {
     padding: 10px;
     border-radius: 8px;
     border: 1px solid #ccc;
@@ -183,8 +185,7 @@ a {
 .rodape {
     background: #292F36;
     color: white;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     margin-top: 40px;
 }
-    

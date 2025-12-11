@@ -8,95 +8,102 @@
     <link rel="icon" href="../z_imagens/favicon.ico">
 </head>
 
-<body class="fundo-pagina">
+<body class="fundoPagina">
 
-  <header class="barra-nav">
-        <div class="barra-nav-container">
-            <h1 class="logo-marca">
-                <a href="../principal_certo/index.html">Luiza Vitton</a>
-            </h1>
+<header class="barraNav">
+    <div class="barraNavContainer">
 
-            <nav class="menu-principal">
-                <a href="../principal_certo/index.html">Início</a>
-                <a href="../Produtos/index.html">Produtos</a>
-                <a href="../Sobre/index.html">Sobre</a>
-                <a href="../contato/index.html">Contato</a>
-            </nav>
+        <h1 class="logoMarca">
+            <a href="../principal_certo/index.html">Luiza Vitton</a>
+        </h1>
 
-            <div class="icones-topo">
-                <img src="../z_imagens/icon pesquisa.png" id="icone-pesquisa" alt="Ícone de pesquisa">
-                <a href="../carrinho/index.html"><img src="../z_imagens/carrinho.png" class="icone" alt="Ícone do carrinho de compras"></a>
-                <a href="../login/index.html"><img src="../z_imagens/icon login.png" class="icone" alt="Ícone de login do usuário"></a>
-            </div>
+        <nav class="menuPrincipal">
+            <a href="../principal_certo/index.html">Início</a>
+            <a href="../Produtos/index.html">Produtos</a>
+            <a href="../Sobre/index.html">Sobre</a>
+            <a href="../contato/index.html">Contato</a>
+        </nav>
+
+        <div class="iconesTopo">
+            <img src="../z_imagens/icon pesquisa.png" id="iconePesquisa" alt="Ícone de pesquisa" />
+            <a href="../carrinho/index.html">
+                <img src="../z_imagens/carrinho.png" class="icone" alt="Ícone do carrinho de compras" />
+            </a>
+            <a href="../login/index.html">
+                <img src="../z_imagens/icon login.png" class="icone" alt="Ícone de login do usuário" />
+            </a>
         </div>
-    </header>
 
-<main class="secao-checkout">
+    </div>
+</header>
 
-    <h2 class="titulo-secao">Finalizar compra</h2>
+<main class="secaoCheckout">
 
-    <section class="checkout-container">
+    <h2 class="tituloSecao">Finalizar compra</h2>
 
-        <section class="checkout-bloco">
-            <h3 class="checkout-subtitulo">Dados do cliente</h3>
+    <section class="checkoutContainer">
 
-            <form class="formulario-checkout">
+        <section class="checkoutBloco">
+            <h3 class="checkoutSubtitulo">Dados do cliente</h3>
 
-                <div class="grupo-campos">
+            <form class="formularioCheckout">
+
+                <div class="grupoCampos">
                     <label for="nome">Nome completo</label>
-                    <input type="text" id="nome" name="nome" required>
+                    <input type="text" id="nome" required>
                 </div>
 
-                <div class="grupo-campos">
+                <div class="grupoCampos">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" required>
                 </div>
 
+                <h3 class="checkoutSubtitulo espacamentoTopo">Endereço de entrega</h3>
 
-                <h3 class="checkout-subtitulo espacamento-topo">Endereço de entrega</h3>
-
-                <div class="grupo-campos">
+                <div class="grupoCampos">
                     <label for="cep">CEP</label>
-                    <input type="text" id="cep" name="cep" required>
+                    <input type="text" id="cep" required>
                 </div>
 
-                <div class="grupo-campos">
+                <div class="grupoCampos">
                     <label for="rua">Rua</label>
-                    <input type="text" id="rua" name="rua" required>
+                    <input type="text" id="rua" required>
                 </div>
 
-                <div class="linha-campos">
-                    <div class="grupo-campos">
+                <div class="linhaCampos">
+                    <div class="grupoCampos">
                         <label for="numero">Número</label>
-                        <input type="text" id="numero" name="numero" required>
+                        <input type="text" id="numero" required>
                     </div>
-                    <div class="grupo-campos">
+
+                    <div class="grupoCampos">
                         <label for="complemento">Complemento</label>
-                        <input type="text" id="complemento" name="complemento">
+                        <input type="text" id="complemento">
                     </div>
                 </div>
 
-                <div class="linha-campos">
-                    <div class="grupo-campos">
+                <div class="linhaCampos">
+                    <div class="grupoCampos">
                         <label for="bairro">Bairro</label>
-                        <input type="text" id="bairro" name="bairro" required>
+                        <input type="text" id="bairro" required>
                     </div>
-                    <div class="grupo-campos">
+
+                    <div class="grupoCampos">
                         <label for="cidade">Cidade</label>
-                        <input type="text" id="cidade" name="cidade" required>
+                        <input type="text" id="cidade" required>
                     </div>
                 </div>
 
-                <div class="grupo-campos">
+                <div class="grupoCampos">
                     <label for="estado">Estado</label>
-                    <input type="text" id="estado" name="estado" placeholder="SP" required>
+                    <input type="text" id="estado" placeholder="SP" required>
                 </div>
 
-                <h3 class="checkout-subtitulo espacamento-topo">Forma de pagamento</h3>
+                <h3 class="checkoutSubtitulo espacamentoTopo">Forma de pagamento</h3>
 
-                <div class="grupo-campos">
+                <div class="grupoCampos">
                     <label for="pagamento">Selecione uma opção*</label>
-                    <select id="pagamento" name="pagamento" required>
+                    <select id="pagamento" required>
                         <option value="">Selecione...</option>
                         <option value="cartao">Cartão de crédito</option>
                         <option value="debito">Cartão de débito</option>
@@ -105,34 +112,34 @@
                     </select>
                 </div>
 
-                <button type="submit" class="botao-finalizar" formaction="">
+                <button type="submit" class="botaoFinalizar">
                     Finalizar compra
                 </button>
 
             </form>
         </section>
 
-        <aside class="checkout-bloco resumo-compra">
-            <h3 class="checkout-subtitulo">Resumo do pedido</h3>
+        <aside class="checkoutBloco resumoCompra">
+            <h3 class="checkoutSubtitulo">Resumo do pedido</h3>
 
-            <ul class="lista-resumo">
-                <li class="item-resumo">
+            <ul class="listaResumo">
+                <li class="itemResumo">
                     <span>Vestido floral</span>
                     <span>R$ 129,90</span>
                 </li>
-                <li class="item-resumo">
+                <li class="itemResumo">
                     <span>2 x Camiseta básica preta</span>
                     <span>R$ 119,80</span>
                 </li>
-                <li class="item-resumo">
+                <li class="itemResumo">
                     <span>Frete</span>
                     <span>R$ 20,00</span>
                 </li>
             </ul>
 
-            <div class="linha-total">
+            <div class="linhaTotal">
                 <span>Total</span>
-                <span class="preco-total">R$ 269,70</span>
+                <span class="precoTotal">R$ 269,70</span>
             </div>
 
         </aside>
@@ -141,8 +148,9 @@
 
 </main>
 
-    <footer class="rodape">
-        <p>© 2026 Luiza Vitton - Todos os direitos reservados</p>
-    </footer>
+<footer class="rodape">
+    <p>© 2026 Luiza Vitton - Todos os direitos reservados</p>
+</footer>
+
 </body>
 </html>
