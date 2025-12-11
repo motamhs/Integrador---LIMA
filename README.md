@@ -78,6 +78,7 @@ O foco do projeto é apenas **estruturas clara de HTML e CSS**.
 ├── .gitattributes
 └── README.md
 
+---
 ## 🎨 Tecnologias Utilizadas
 
 - **HTML5**
