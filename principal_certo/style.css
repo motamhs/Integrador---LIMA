@@ -5,7 +5,9 @@ body, html {
 }
 
 
-.fundo-pagina { background: #F7FFF7; }
+.fundo-pagina {
+    background: #F7FFF7;
+}
 
 .fundo-claro { 
     background: #f3f3f3;
@@ -95,12 +97,12 @@ a {
 }
 
 
-.secao-hero { 
+.secao-banner { 
     background: linear-gradient(to right, #FF6B6B, #FFE66D); 
     color: rgb(0, 0, 0); 
 }
 
-.container-hero { 
+.container-banner { 
     max-width: 1100px; 
     margin: auto; 
     padding: 60px 16px; 
@@ -109,17 +111,17 @@ a {
     align-items: center; 
 }
 
-.conteudo-hero {
+.conteudo-banner {
      flex: 1; 
     }
 
-.caixa-imagem-hero { 
+.caixa-imagem-banner { 
     flex: 1; 
     display: flex; 
     justify-content: center; 
 }
 
-.imagem-hero { 
+.imagem-banner { 
     width: 100%; 
     max-width: 400px; 
     border-radius: 12px; 
@@ -270,7 +272,9 @@ a {
     gap: 20px; 
 }
 
-.coluna { flex: 1; }
+.coluna {
+     flex: 1; 
+}
 
 .img-sobre { 
     width: 100%; 

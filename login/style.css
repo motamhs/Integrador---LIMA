@@ -91,7 +91,7 @@ a {
 }
 
 .link {
-    color: #FF6B6B;
+    color: #ce1913;
     font-weight: bold;
 }
 
@@ -127,7 +127,7 @@ a {
 .botao {
     width: 100%;
     padding: 12px;
-    background: #FF6B6B;
+    background: #ce1913;
     border: none;
     color: white;
     font-weight: bold;
@@ -179,7 +179,7 @@ a {
 }
 
 .google {
-    color: #DB4437;
+    color: #970d00;
 }
 
 .rodape {

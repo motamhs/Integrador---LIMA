@@ -1,5 +1,3 @@
-/* GERAL */
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -16,8 +14,6 @@ a {
     margin: auto;
     padding: 20px;
 }
-
-/* ÍCONES */
 
 #icone-pesquisa {
     width: 32px;
@@ -45,8 +41,6 @@ a {
             saturate(394%) hue-rotate(-5deg) brightness(97%) contrast(101%);
 }
 
-/* CABEÇALHO */
-
 .cabecalho {
     background: white;
     box-shadow: 0 2px 6px #ddd;
@@ -67,8 +61,6 @@ a {
     margin-left: 20px;
     color: #333;
 }
-
-/* LOGIN / CADASTRO */
 
 .secao-login {
     min-height: 80vh;
@@ -99,12 +91,9 @@ a {
 }
 
 .link {
-    color: #FF6B6B;
+    color: #ce1913;
     font-weight: bold;
 }
-
-/* FORMULÁRIO */
-
 .formulario {
     text-align: left;
 }
@@ -134,12 +123,10 @@ a {
     color: #333;
 }
 
-/* BOTÃO PRINCIPAL */
-
 .botao {
     width: 100%;
     padding: 12px;
-    background: #FF6B6B;
+    background: #ce1913;
     border: none;
     color: white;
     font-weight: bold;
@@ -147,9 +134,6 @@ a {
     cursor: pointer;
     margin-top: 15px;
 }
-
-/* SEPARADOR */
-
 .separador {
     margin: 25px 0;
     position: relative;
@@ -173,8 +157,6 @@ a {
     z-index: -1;
 }
 
-/* SOCIAL LOGIN */
-
 .caixa-social {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -195,10 +177,8 @@ a {
 }
 
 .google {
-    color: #DB4437;
+    color: #970d00;
 }
-
-/* RODAPÉ */
 
 .rodape {
     background: #292F36;

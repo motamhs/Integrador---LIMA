@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Luiza Vitton</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../z_imagens/favicon.ico">
+</head>
+
+<body class="fundo-pagina">
+
+  <header class="barra-nav">
+        <div class="barra-nav-container">
+            <h1 class="logo-marca">
+                <a href="../principal_certo/index.html">Luiza Vitton</a>
+            </h1>
+
+            <nav class="menu-principal">
+                <a href="../principal_certo/index.html">Início</a>
+                <a href="../Produtos/index.html">Produtos</a>
+                <a href="../Sobre/index.html">Sobre</a>
+                <a href="../contato/index.html">Contato</a>
+            </nav>
+
+            <div class="icones-topo">
+                <img src="../z_imagens/icon pesquisa.png" id="icone-pesquisa" alt="Ícone de pesquisa">
+                <a href="../carrinho/index.html"><img src="../z_imagens/carrinho.png" class="icone" alt="Ícone do carrinho de compras"></a>
+                <a href="../login/index.html"><img src="../z_imagens/icon login.png" class="icone" alt="Ícone de login do usuário"></a>
+            </div>
+        </div>
+    </header>
+
+<main class="secao-checkout">
+
+    <h2 class="titulo-secao">Finalizar compra</h2>
+
+    <section class="checkout-container">
+
+        <section class="checkout-bloco">
+            <h3 class="checkout-subtitulo">Dados do cliente</h3>
+
+            <form class="formulario-checkout">
+
+                <div class="grupo-campos">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="grupo-campos">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+
+                <h3 class="checkout-subtitulo espacamento-topo">Endereço de entrega</h3>
+
+                <div class="grupo-campos">
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep" name="cep" required>
+                </div>
+
+                <div class="grupo-campos">
+                    <label for="rua">Rua</label>
+                    <input type="text" id="rua" name="rua" required>
+                </div>
+
+                <div class="linha-campos">
+                    <div class="grupo-campos">
+                        <label for="numero">Número</label>
+                        <input type="text" id="numero" name="numero" required>
+                    </div>
+                    <div class="grupo-campos">
+                        <label for="complemento">Complemento</label>
+                        <input type="text" id="complemento" name="complemento">
+                    </div>
+                </div>
+
+                <div class="linha-campos">
+                    <div class="grupo-campos">
+                        <label for="bairro">Bairro</label>
+                        <input type="text" id="bairro" name="bairro" required>
+                    </div>
+                    <div class="grupo-campos">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" name="cidade" required>
+                    </div>
+                </div>
+
+                <div class="grupo-campos">
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado" name="estado" placeholder="SP" required>
+                </div>
+
+                <h3 class="checkout-subtitulo espacamento-topo">Forma de pagamento</h3>
+
+                <div class="grupo-campos">
+                    <label for="pagamento">Selecione uma opção*</label>
+                    <select id="pagamento" name="pagamento" required>
+                        <option value="">Selecione...</option>
+                        <option value="cartao">Cartão de crédito</option>
+                        <option value="debito">Cartão de débito</option>
+                        <option value="boleto">Boleto bancário</option>
+                        <option value="pix">Pix (simulado)</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="botao-finalizar">
+                    Finalizar compra
+                </button>
+
+            </form>
+        </section>
+
+        <aside class="checkout-bloco resumo-compra">
+            <h3 class="checkout-subtitulo">Resumo do pedido</h3>
+
+            <ul class="lista-resumo">
+                <li class="item-resumo">
+                    <span>Vestido floral</span>
+                    <span>R$ 129,90</span>
+                </li>
+                <li class="item-resumo">
+                    <span>2 x Camiseta básica preta</span>
+                    <span>R$ 119,80</span>
+                </li>
+                <li class="item-resumo">
+                    <span>Frete</span>
+                    <span>R$ 20,00</span>
+                </li>
+            </ul>
+
+            <div class="linha-total">
+                <span>Total</span>
+                <span class="preco-total">R$ 269,70</span>
+            </div>
+
+        </aside>
+
+    </section>
+
+</main>
+
+    <footer class="rodape">
+        <p>© 2026 Luiza Vitton - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

@@ -108,7 +108,7 @@ a {
 }
 
 .preco-item {
-    color: #FF6B6B;
+    color: #ce1913;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -152,7 +152,7 @@ a {
 .botao-finalizar {
     width: 100%;
     padding: 12px;
-    background: #FF6B6B;
+    background: #ce1913;
     border: none;
     color: white;
     font-weight: bold;
