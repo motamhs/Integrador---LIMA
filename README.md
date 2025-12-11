@@ -74,7 +74,7 @@ O foco do projeto é apenas **estruturas clara de HTML e CSS**.
 │   └── (galeria de imagens usadas no site)
 │
 ├── z-Produtos/
-│   ├── (cada produto possui sua própria página HTML)
+│   ├── (página HTML de cada produto)
 │   └── style.css (css geral de todos os produtos)
 │
 ├── .gitattributes
